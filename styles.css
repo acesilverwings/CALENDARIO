@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(calendariopng.png);
+    background-repeat: repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-container{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.title-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.actions-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.arrow{
+    height: 80px;
+    width: 80px;
+    background-clip: darkgray;
+    border-radius: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+.arrow > img{
+    height: 80px;
+    width: 80px;
+}
+
+.arrow:active{
+    background-color: aqua;
+
+}
+.table-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+table{
+    
+    border-collapse: collapse;
+
+}
+
+#monday-container{
+    background-color: darkgreen;
+}
+#tuesday-container{
+    background-color: darkmagenta;
+}
+#wednesday-container{
+    background-color: darkorange;
+}
+#thursday-container{
+    background-color: darksalmon;
+}
+#friday-container{
+    background-color: deeppink ;
+}
+#saturday-container{
+    background-color: gold;
+}
+#sunday-container{
+    background-color: indigo;
+}
+tr > th{
+    width: 80px;
+    height: 50px;
+    text-align: center;
+        border: 2px solid blue;
+    color: white ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 10px;
+}
+tr > td{
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    
+    border: 2px solid blue;
+    background-color: cadetblue;
+}
+tr > td:hover{
+    color: darkcyan;
+    background-color: darkgrey;
+
+}
+tr > td:active{
+    background-color: darkslateblue;
+}
